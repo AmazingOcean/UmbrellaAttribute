@@ -1,0 +1,100 @@
+Default-1:
+  Name: <s:DefaultPrefix>&c炎之洗礼<s:DefaultSuffix> <s:<l:品质>Color><l:品质>
+  ID: WOOD_SWORD
+  Lore:
+    - "攻击力: 100"
+Test:
+  Name: "剑剑剑"
+  ID: WOOD_SWORD
+  Lore:
+    - "生命上限: 10%"
+Default-2:
+  Name: '&c机械轻羽之靴'
+  ID: chainmail_boots
+  Lore:
+    - '&6物品类型: 靴子'
+    - '&c生命上限: +2000'
+    - '&d移速增幅: +50%'
+    - '&6限制等级: <r:50_100>级'
+    - '&r'
+    - '&8速度 II'
+    - '&c支持单项自动更新-(自动更新)'
+    - '&c支持单项关闭清除标签'
+    - '&r'
+    - '&e出售价格: 250'
+    - "攻速增幅: +50%"
+  EnchantList:
+    - DURABILITY:1
+  ItemFlagList:
+    - HIDE_ENCHANTS
+    - HIDE_UNBREAKABLE
+  Unbreakable: true
+  Color: #ffffff
+  Update: true
+  ClearAttribute: false
+Default-3:
+  Name: '&b雷霆领主项链'
+  ID: string
+  Lore:
+    - '&6物品类型: 项链'
+    - '&c生命上限: +200'
+    - '&d移速增幅: +50%'
+    - '&d雷霆几率: +20%'
+    - '&6限制等级: <r:20_30>级'
+    - '&r'
+    - '&e出售价格: 500'
+    - '&r'
+    - '&8&o拥有着驾驭飞行的能力'
+    - '&8&o"放在背包第三行最后一格生效"'
+  EnchantList:
+    - DURABILITY:1
+Default-5:
+  Name: '&b慢剑'
+  ID: 267
+  Lore:
+    - '&7设置物品默认攻速，与玩家自身属性分离'
+    - '&7物品攻速最低为0-最高为4'
+    - '&7AttackSpeed.yml文件内可设置玩家默认攻速'
+    - '&7以及各工具默认攻速'
+    - ''
+    - '&c若玩家攻速+物品攻速小于等于4'
+    - '&c工具将无法抬起'
+Default-6:
+  Name: '&c&l鸽子肉'
+  ID: 'mutton'
+  Lore:
+    - ''
+    - '&6物品类型: 宝藏'
+    - ''
+    - '&b连肉都散发出了耀眼光芒'
+    - ''
+    - '&8&o"放在背包第一行最后一格生效"'
+    - '分解器1'
+  EnchantList:
+    - DURABILITY:1
+  ItemFlagList:
+    - HIDE_ENCHANTS
+Default-Stove:
+  Name: '&f丹炉'
+  ID: paper
+  Lore:
+    - ''
+    - '&6普通的丹炉'
+    - ''
+    - '&b请手拿武器右键炼丹炉,将自动生成丹炉'
+  EnchantList:
+    - DURABILITY:1
+  ItemFlagList:
+    - HIDE_ENCHANTS
+Default-Stove-1:
+  Name: '&f丹炉'
+  ID: paper
+  Lore:
+    - ''
+    - '&6万炉神'
+    - ''
+    - '&b请手拿武器右键炼丹炉,将自动生成丹炉'
+  EnchantList:
+    - DURABILITY:1
+  ItemFlagList:
+    - HIDE_ENCHANTS
